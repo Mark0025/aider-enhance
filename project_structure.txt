@@ -1,0 +1,28 @@
+aider-config/
+├── README.md
+├── requirements.txt
+├── setup.py
+├── .env.example
+├── aider_config/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config_manager.py
+│   │   ├── ai_assistant.py
+│   │   └── validator.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── model_scraper.py
+│   │   ├── usage_analyzer.py
+│   │   └── tool_integration.py
+│   └── templates/
+│       ├── __init__.py
+│       ├── workflows.py
+│       └── default_config.yml
+├── tests/
+│   ├── __init__.py
+│   ├── test_config_manager.py
+│   └── test_ai_assistant.py
+└── examples/
+    ├── basic_config.yml
+    └── advanced_config.yml

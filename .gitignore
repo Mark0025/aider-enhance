@@ -1,0 +1,49 @@
+# Created by https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,visualstudiocode
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheeldir/
+share/python-wheeldir/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller runs
+PyInstaller.bin/
+# PyInstaller .spec files
+*.spec
+# Developer logging
+test.log
+test.out
+
+.aider                                                                    
+.gitignore# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
